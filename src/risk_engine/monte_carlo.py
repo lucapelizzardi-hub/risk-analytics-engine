@@ -4,6 +4,7 @@ import numpy as np
 def monte_carlo_var(returns, weights, alpha=0.95, n_sims=10000):
     """
     Monte Carlo VaR multivariato usando decomposizione di Cholesky.
+    
     """
     returns = np.asarray(returns)
     weights = np.asarray(weights)
